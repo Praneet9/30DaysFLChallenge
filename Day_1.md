@@ -33,3 +33,15 @@ The **SyftBox API** is a lightweight script designed to work with local data or 
 ---
 
 SyftBox enables developers to build and deploy privacy-preserving solutions in distributed environments, fostering secure and collaborative workflows without compromising sensitive data.
+
+# Federated Learning Tutorial @ NeurIPS 2020
+
+Reading through the PPT, this is what I learned!
+
+- **Privacy is key:** This is a huge advantage over traditional machine learning, where all the data needs to be collected in one place. With federated learning, my data stays on my device, and only the model updates are shared. This makes it much more privacy-preserving.
+- **It's like a collaborative effort:** Imagine tons of phones working together to train a model, each using their own data.  Each phone trains the model locally and sends back just the learnings - not the actual data. Then, a central server combines those learnings to improve the overall model.  It's fascinating how it all comes together!
+- **There are different types of federated learning:** It's not just for phones. There's also cross-silo federated learning, where different organizations, like hospitals, can collaborate on training a model without sharing sensitive patient data. This has huge potential for medical research!
+- **Communication is a challenge:** Sending data back and forth between devices can be slow and costly.  The paper mentioned techniques like compression and reducing the number of devices involved to address this.  It's like finding clever ways to make the communication more efficient.
+- **Evaluating federated learning is tricky:** Since we can't easily test on millions of devices, researchers have to rely on simulations. This makes it even more important to carefully design those simulations and use realistic datasets. 
+
+I can see why federated learning is gaining so much attention. It's a game-changer for privacy and has the potential to unlock so many possibilities in various fields. I'm definitely going to keep learning more about this!
