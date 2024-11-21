@@ -1,0 +1,35 @@
+# SyftBox
+
+**SyftBox** is a flexible framework that simplifies the development of privacy-enhancing technologies (PETs), making them accessible across any programming language or environment.
+
+## Core Features of SyftBox
+
+- **Distributed Network of Datasites**  
+  A decentralized system where datasites contribute data and APIs, enabling a collaborative ecosystem.
+
+- **Modular Architecture**  
+  PETs are broken down into smaller, independent, and reusable components, simplifying the creation of complex systems.
+
+- **Cross-Language and Platform Compatibility**  
+  Built to work seamlessly across various programming languages and operating environments.
+
+- **Versatile SyftBox APIs**  
+  These APIs allow secure interaction with both private and public datasets from datasites, supporting tasks like machine learning, data analysis, and visualization—all while ensuring privacy.
+
+SyftBox is particularly well-suited for federated learning (FL) across datasites, enabling collaborative model training without exposing sensitive information.
+
+---
+
+## Understanding the SyftBox API
+
+The **SyftBox API** is a lightweight script designed to work with local data or synchronized data from other datasites. It forms the backbone of the SyftBox ecosystem, empowering users to process, analyze, and utilize data while maintaining privacy.
+
+- **`run.sh` Script**  
+  A setup utility that configures the environment and runs the main API script.
+
+- **Main API Script**  
+  This language-agnostic script houses the core functionality, enabling interactions with datasites and supporting operations like data analysis and model training.
+
+---
+
+SyftBox enables developers to build and deploy privacy-preserving solutions in distributed environments, fostering secure and collaborative workflows without compromising sensitive data.
